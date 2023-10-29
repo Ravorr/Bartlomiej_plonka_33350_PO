@@ -1,7 +1,7 @@
 package po.laboratorium1;
 
 public class Category {
-    private String name;
+    private String name = "";
 
     public String getName() {
         return name;
