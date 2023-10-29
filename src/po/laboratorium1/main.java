@@ -19,5 +19,6 @@ public class main {
         System.out.println(produkt);
         System.out.println(produkt.getName());
         produkt.setName("");
+        produkt.setName(null);
     }
 }
