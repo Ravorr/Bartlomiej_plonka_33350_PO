@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="Napisać w funkcji main() kod, który pozwoli na przetestowanie zaimplementowanej klas oraz wszystkich ich metod.">
-      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/main.java" afterDir="false" />
+    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="uml2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698573795430</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Napisać w funkcji main() kod, który pozwoli na przetestowanie zaimplementowanej klas oraz wszystkich ich metod.">
+      <created>1698573889462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698573889462</updated>
+    </task>
+    <task id="LOCAL-00006" summary="uml2">
+      <created>1698574029831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698574029831</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,7 +119,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="Bartlomiej_Plonka_33350_PO/lab2" />
                       </list>
                     </value>
                   </entry>
@@ -122,6 +136,7 @@
     <MESSAGE value="lab1" />
     <MESSAGE value="Stworzyć klasę Product, która posiadać będzie następujące składniki:&#10;&#10;name - nazwa produktu typu String;&#10;category - kategoria produktu typu Category;&#10;price - cena produktu typu float;&#10;Wszystkie składniki klasy powinny być prywatne i zainicjalizowane wartościami domyślnymi dla danego typu danych.&#10;&#10;Dla każdego ze składników klasy napisać metodę typu get oraz set, a także metodę toString()." />
     <MESSAGE value="Napisać w funkcji main() kod, który pozwoli na przetestowanie zaimplementowanej klas oraz wszystkich ich metod." />
-    <option name="LAST_COMMIT_MESSAGE" value="Napisać w funkcji main() kod, który pozwoli na przetestowanie zaimplementowanej klas oraz wszystkich ich metod." />
+    <MESSAGE value="uml2" />
+    <option name="LAST_COMMIT_MESSAGE" value="uml2" />
   </component>
 </project>
