@@ -10,7 +10,12 @@ public class Product {
     }
 
     public void setName(String name) {
-        this.name = name;
+
+        if (name == null || name ==""){
+            System.out.println("Nazwa nie może być pusta");
+        }else {
+            this.name = name;
+        }
     }
 
     public Category getCategory() {
@@ -26,11 +31,17 @@ public class Product {
     }
 
     public void setPrice(float price) {
-        this.price = price;
+
+        if (price < 0){
+            System.out.println("Cena nie może być ujemna.");
+        }else {
+            this.price = (Math.round(price * 100.0F) / 100.0F);
+        }
+
     }
 
     @Override
     public String toString() {
-        return "Name" + name + ", " + "Category" + category + ", " + "Price" + price;
+        return "Nazwa przedmiotu: " + name + ", "  + category + ", " + "Cena przedmiotu: " + price;
     }
 }

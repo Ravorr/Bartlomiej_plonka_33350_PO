@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="lab1">
-      <change afterPath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" afterDir="false" />
+    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="Stworzyć klasę Product, która posiadać będzie następujące składniki:&#10;&#10;name - nazwa produktu typu String;&#10;category - kategoria produktu typu Category;&#10;price - cena produktu typu float;&#10;Wszystkie składniki klasy powinny być prywatne i zainicjalizowane wartościami domyślnymi dla danego typu danych.&#10;&#10;Dla każdego ze składników klasy napisać metodę typu get oraz set, a także metodę toString().">
+      <change afterPath="$PROJECT_DIR$/src/po/laboratorium1/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,8 @@
     "last_opened_file_path": "C:/Users/Dream Machines/IdeaProjects/Studia/Bartlomiej_Plonka_33350_PO",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.616"
+    "project.structure.side.proportion": "0.616",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698570177835</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Stworzyć klasę Product, która posiadać będzie następujące składniki:&#10;&#10;name - nazwa produktu typu String;&#10;category - kategoria produktu typu Category;&#10;price - cena produktu typu float;&#10;Wszystkie składniki klasy powinny być prywatne i zainicjalizowane wartościami domyślnymi dla danego typu danych.&#10;&#10;Dla każdego ze składników klasy napisać metodę typu get oraz set, a także metodę toString().">
+      <created>1698571169790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698571169790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="uml" />
     <MESSAGE value="lab1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab1" />
+    <MESSAGE value="Stworzyć klasę Product, która posiadać będzie następujące składniki:&#10;&#10;name - nazwa produktu typu String;&#10;category - kategoria produktu typu Category;&#10;price - cena produktu typu float;&#10;Wszystkie składniki klasy powinny być prywatne i zainicjalizowane wartościami domyślnymi dla danego typu danych.&#10;&#10;Dla każdego ze składników klasy napisać metodę typu get oraz set, a także metodę toString()." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stworzyć klasę Product, która posiadać będzie następujące składniki:&#10;&#10;name - nazwa produktu typu String;&#10;category - kategoria produktu typu Category;&#10;price - cena produktu typu float;&#10;Wszystkie składniki klasy powinny być prywatne i zainicjalizowane wartościami domyślnymi dla danego typu danych.&#10;&#10;Dla każdego ze składników klasy napisać metodę typu get oraz set, a także metodę toString()." />
   </component>
 </project>
