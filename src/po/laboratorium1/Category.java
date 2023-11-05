@@ -20,6 +20,17 @@ public class Category {
         return "Nazwa kategotii to: "+name;
     }
 
+    private Category(String name) {
+
+        this.name = name;
+        setName(name);
+    }
+
+    public static Category from(String name){
+        return new Category(name);
+    }
+
+
     public static void main(String[] args) {
         Category kat = new Category(null);
 
@@ -29,10 +40,6 @@ public class Category {
         kat.setName(null);
         kat.setName("");
     }
-    private Category(String name) {
 
-        this.name = name;
-        setName(name);
-    }
 }
 
