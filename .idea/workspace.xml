@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="walidacja w konstruktorze za pomocą setName">
+    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="Stworzyć w klasie Category statyczną metodę fabryczną from(String), która pozwala na stworzenie instancji klasy Category na podstawie podanego obiektu typu String.&#10;&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lab2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699175536456</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="walidacja w konstruktorze za pomocą setName">
+      <created>1699176494294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699176494294</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Stworzyć w klasie Category statyczną metodę fabryczną from(String), która pozwala na stworzenie instancji klasy Category na podstawie podanego obiektu typu String.&#10;&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne.">
+      <created>1699176542058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699176542058</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="walidacja w konstruktorze za pomocą setName" />
-    <option name="LAST_COMMIT_MESSAGE" value="walidacja w konstruktorze za pomocą setName" />
+    <MESSAGE value="Stworzyć w klasie Category statyczną metodę fabryczną from(String), która pozwala na stworzenie instancji klasy Category na podstawie podanego obiektu typu String.&#10;&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stworzyć w klasie Category statyczną metodę fabryczną from(String), która pozwala na stworzenie instancji klasy Category na podstawie podanego obiektu typu String.&#10;&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne." />
   </component>
 </project>

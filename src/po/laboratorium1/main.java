@@ -2,8 +2,8 @@ package po.laboratorium1;
 
 public class main {
     public static void main(String[] args) {
-        Product produkt = new Product();
-        Category kategoria = new Category();
+        Product produkt = new Product("RDR2", 22.5F);
+        Category kategoria = Category.from( "Gra");
 
         kategoria.setName("przedmiot");
 
