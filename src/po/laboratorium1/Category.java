@@ -9,6 +9,7 @@ public class Category {
     public void setName(String name) {
         if (name == null || name.length()==0){
             System.out.println("nieprawidłowa nazwa");
+            this.name = null;
         }else {
             this.name = name;
         }
@@ -20,13 +21,18 @@ public class Category {
     }
 
     public static void main(String[] args) {
-        Category kat = new Category();
+        Category kat = new Category(null);
 
         kat.setName("Bartek");
         System.out.println(kat.getName());
         System.out.println(kat);
         kat.setName(null);
         kat.setName("");
+    }
+    private Category(String name) {
+
+        this.name = name;
+        setName(name);
     }
 }
 
