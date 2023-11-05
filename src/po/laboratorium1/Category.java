@@ -26,6 +26,9 @@ public class Category {
         setName(name);
     }
 
+    public static Category from(String name){
+        return new Category(name);
+    }
     public static void main(String[] args) {
         Category kat = new Category(null);
 
