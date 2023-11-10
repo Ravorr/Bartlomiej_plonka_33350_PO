@@ -7,13 +7,10 @@ public class Category {
         return name;
     }
     public void setName(String name) {
-        if (name == null || name.length()==0){
-            System.out.println("nieprawidłowa nazwa");
-            this.name = null;
-        }else {
-            this.name = name;
+        if (name == null || name.length()==0) throw new IllegalArgumentException ("Argumentt nie może mieć watrość 0 lub null");
+        else          this.name = name;
+
         }
-    }
 
     @Override
     public String toString() {
@@ -30,13 +27,13 @@ public class Category {
         return new Category(name);
     }
     public static void main(String[] args) {
-        Category kat = new Category(null);
+        Category kat = new Category("cos");
 
-        kat.setName("Bartek");
+//        kat.setName("Bartek");
         System.out.println(kat.getName());
         System.out.println(kat);
-        kat.setName(null);
-        kat.setName("");
+//        kat.setName(null);
+//        kat.setName("");
     }
 }
 

@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="Stworzyć w klasie Category statyczną metodę fabryczną from(String), która pozwala na stworzenie instancji klasy Category na podstawie podanego obiektu typu String.&#10;&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne.">
+    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="Stworzyć w klasie Product, dwa konstruktory:&#10;&#10;dwuargumentowy, pozwalający zainicjalizować składnik name oraz price. Wykorzystać metody typu set; &#10;trójargumentowy, inicjalizujący wszystkie trzy składniki klasy. &#10;W przypadku, kiedy dane nie przejdą walidacji, nazwa produktu i kategoria będą miała wartość null, a składnik cena, wartość 0.&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Category.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,6 +33,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2WTM2YNTpednSE4gSugdULJEE0E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -77,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699176542058</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Stworzyć w klasie Product, dwa konstruktory:&#10;&#10;dwuargumentowy, pozwalający zainicjalizować składnik name oraz price. Wykorzystać metody typu set; &#10;trójargumentowy, inicjalizujący wszystkie trzy składniki klasy. &#10;W przypadku, kiedy dane nie przejdą walidacji, nazwa produktu i kategoria będą miała wartość null, a składnik cena, wartość 0.&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne.">
+      <created>1699177345436</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699177345436</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="walidacja w konstruktorze za pomocą setName" />
     <MESSAGE value="Stworzyć w klasie Category statyczną metodę fabryczną from(String), która pozwala na stworzenie instancji klasy Category na podstawie podanego obiektu typu String.&#10;&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne." />
-    <option name="LAST_COMMIT_MESSAGE" value="Stworzyć w klasie Category statyczną metodę fabryczną from(String), która pozwala na stworzenie instancji klasy Category na podstawie podanego obiektu typu String.&#10;&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne." />
+    <MESSAGE value="Stworzyć w klasie Product, dwa konstruktory:&#10;&#10;dwuargumentowy, pozwalający zainicjalizować składnik name oraz price. Wykorzystać metody typu set; &#10;trójargumentowy, inicjalizujący wszystkie trzy składniki klasy. &#10;W przypadku, kiedy dane nie przejdą walidacji, nazwa produktu i kategoria będą miała wartość null, a składnik cena, wartość 0.&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stworzyć w klasie Product, dwa konstruktory:&#10;&#10;dwuargumentowy, pozwalający zainicjalizować składnik name oraz price. Wykorzystać metody typu set; &#10;trójargumentowy, inicjalizujący wszystkie trzy składniki klasy. &#10;W przypadku, kiedy dane nie przejdą walidacji, nazwa produktu i kategoria będą miała wartość null, a składnik cena, wartość 0.&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne." />
   </component>
 </project>
