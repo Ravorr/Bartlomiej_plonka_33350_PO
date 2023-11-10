@@ -3,6 +3,23 @@ package po.laboratorium1;
 public class Category {
     private String name = "";
 
+    private static class StringValidator {
+        private static final StringValidator INSTANCE = new StringValidator();
+
+        private StringValidator() {
+
+        }
+
+        public static StringValidator getInstance() {
+            return INSTANCE;
+        }
+
+        public void validate(String value, String errorMessage) {
+            if (value == null || value.length() == 0) {
+                throw new IllegalArgumentException(errorMessage);
+            }
+        }
+    }
     public String getName() {
         return name;
     }
@@ -29,11 +46,24 @@ public class Category {
     public static void main(String[] args) {
         Category kat = new Category("cos");
 
-//        kat.setName("Bartek");
-        System.out.println(kat.getName());
-        System.out.println(kat);
-//        kat.setName(null);
-//        kat.setName("");
+        // Poprawne ustawienie nazwy
+    kat.setName("Bartek");
+    System.out.println(kat.getName());
+    System.out.println(kat);
+
+
+        StringValidator validator = Category.StringValidator.getInstance();
+        try {
+            validator.validate(null, "Test: Null");
+        } catch (IllegalArgumentException e) {
+            System.out.println("Błąd: " + e.getMessage());
+        }
+
+        try {
+            validator.validate("", "Test: Empty");
+        } catch (IllegalArgumentException e) {
+            System.out.println("Błąd: " + e.getMessage());
+        }
     }
 }
 
