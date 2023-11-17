@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="W klasie Category stworzyć statyczną klasę z wykorzystaniem wzorca projektowego singleton, która pozwala walidować zmienną typu String, sprawdzając, czy jest ona równa null lub jest napisem o długości zero. Posługując się przykładem z wykładu, wykorzystać stworzoną klasę do walidowania składnika name w metodzie set.">
+    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="Stworzyć typ wyliczeniowy Currency, opisujący możliwe do wykorzystania następujące typy walut:">
+      <change afterPath="$PROJECT_DIR$/src/po/laboratorium1/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -102,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699654139724</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Stworzyć typ wyliczeniowy Currency, opisujący możliwe do wykorzystania następujące typy walut:">
+      <created>1699654376243</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699654376243</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +145,7 @@
     <MESSAGE value="Stworzyć w klasie Product, dwa konstruktory:&#10;&#10;dwuargumentowy, pozwalający zainicjalizować składnik name oraz price. Wykorzystać metody typu set; &#10;trójargumentowy, inicjalizujący wszystkie trzy składniki klasy. &#10;W przypadku, kiedy dane nie przejdą walidacji, nazwa produktu i kategoria będą miała wartość null, a składnik cena, wartość 0.&#10;Zmodyfikować klasę tak, aby wszystkie konstruktory klasy były prywatne." />
     <MESSAGE value="Zmodyfikować kod klasy Category, odpowiedzialny za walidowanie danych wg. następującej reguły." />
     <MESSAGE value="W klasie Category stworzyć statyczną klasę z wykorzystaniem wzorca projektowego singleton, która pozwala walidować zmienną typu String, sprawdzając, czy jest ona równa null lub jest napisem o długości zero. Posługując się przykładem z wykładu, wykorzystać stworzoną klasę do walidowania składnika name w metodzie set." />
-    <option name="LAST_COMMIT_MESSAGE" value="W klasie Category stworzyć statyczną klasę z wykorzystaniem wzorca projektowego singleton, która pozwala walidować zmienną typu String, sprawdzając, czy jest ona równa null lub jest napisem o długości zero. Posługując się przykładem z wykładu, wykorzystać stworzoną klasę do walidowania składnika name w metodzie set." />
+    <MESSAGE value="Stworzyć typ wyliczeniowy Currency, opisujący możliwe do wykorzystania następujące typy walut:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stworzyć typ wyliczeniowy Currency, opisujący możliwe do wykorzystania następujące typy walut:" />
   </component>
 </project>

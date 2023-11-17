@@ -4,6 +4,7 @@ public class Product {
     private String name ="";
     private Category category;
     private float price = 0.F;
+    private Currency currency = Currency.PLN;
 
     public String getName() {
         return name;
@@ -31,6 +32,13 @@ public class Product {
         }
     }
 
+    public Currency getCurrency() {
+        return currency;
+    }
+
+    public void setCurrency(Currency currency) {
+        this.currency = currency;
+    }
     public float getPrice() {
         return price;
     }
@@ -64,5 +72,11 @@ public class Product {
         setCategory(category);
         this.price = price;
         setPrice(price);
+    }
+    public Product(String name, Category category, float price, Currency currency) {
+        setName(name);
+        setCategory(category);
+        setPrice(price);
+        setCurrency(currency);
     }
 }

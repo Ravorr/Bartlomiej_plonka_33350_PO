@@ -33,20 +33,7 @@ public class Category {
     public String toString() {
         return "Nazwa kategotii to: "+name;
     }
-    public enum Currency {
-        PLN("polski złoty"),
-        USD("dolar amerykański");
 
-        private final String waluta;
-
-        Currency(String name) {
-            this.waluta = name;
-        }
-
-        public String getWaluta() {
-            return waluta;
-        }
-    }
     private Category(String name) {
 
         this.name = name;
