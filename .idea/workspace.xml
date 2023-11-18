@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="Stworzyć typ wyliczeniowy Currency, opisujący możliwe do wykorzystania następujące typy walut:">
-      <change afterPath="$PROJECT_DIR$/src/po/laboratorium1/Currency.java" afterDir="false" />
+    <list default="true" id="3f9076b2-d4e0-4b39-a452-8aac51539eee" name="Changes" comment="Dodać do klasy Product składnik currency typu Currency, który domyślnie inicjalizowany będzie wartością PLN. &#10;&#10;Zaimplementować dla tego składnika odpowiednie metody typu set oraz get, a także dopisać dodatkowy (trzeci) konstruktor czteroargumentowy, który pozwala na zainicjalizowanie wszystkich składników klasy.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/po/laboratorium1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/po/laboratorium1/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699654376243</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Dodać do klasy Product składnik currency typu Currency, który domyślnie inicjalizowany będzie wartością PLN. &#10;&#10;Zaimplementować dla tego składnika odpowiednie metody typu set oraz get, a także dopisać dodatkowy (trzeci) konstruktor czteroargumentowy, który pozwala na zainicjalizowanie wszystkich składników klasy.">
+      <created>1700246081317</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700246081317</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +152,7 @@
     <MESSAGE value="Zmodyfikować kod klasy Category, odpowiedzialny za walidowanie danych wg. następującej reguły." />
     <MESSAGE value="W klasie Category stworzyć statyczną klasę z wykorzystaniem wzorca projektowego singleton, która pozwala walidować zmienną typu String, sprawdzając, czy jest ona równa null lub jest napisem o długości zero. Posługując się przykładem z wykładu, wykorzystać stworzoną klasę do walidowania składnika name w metodzie set." />
     <MESSAGE value="Stworzyć typ wyliczeniowy Currency, opisujący możliwe do wykorzystania następujące typy walut:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stworzyć typ wyliczeniowy Currency, opisujący możliwe do wykorzystania następujące typy walut:" />
+    <MESSAGE value="Dodać do klasy Product składnik currency typu Currency, który domyślnie inicjalizowany będzie wartością PLN. &#10;&#10;Zaimplementować dla tego składnika odpowiednie metody typu set oraz get, a także dopisać dodatkowy (trzeci) konstruktor czteroargumentowy, który pozwala na zainicjalizowanie wszystkich składników klasy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodać do klasy Product składnik currency typu Currency, który domyślnie inicjalizowany będzie wartością PLN. &#10;&#10;Zaimplementować dla tego składnika odpowiednie metody typu set oraz get, a także dopisać dodatkowy (trzeci) konstruktor czteroargumentowy, który pozwala na zainicjalizowanie wszystkich składników klasy." />
   </component>
 </project>

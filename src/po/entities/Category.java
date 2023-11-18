@@ -1,4 +1,6 @@
-package po.laboratorium1;
+package po.entities;
+
+import po.laboratorium1.Currency;
 
 public class Category {
     private String name = "";

@@ -8,6 +8,7 @@ public enum Currency {
 
     Currency(String name) {
         this.waluta = name;
+        System.out.println(name);
     }
 
     public String getWaluta() {

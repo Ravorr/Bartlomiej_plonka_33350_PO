@@ -1,10 +1,13 @@
 package po.laboratorium1;
 
+import po.entities.Category;
+import po.entities.Product;
+
 public class main {
     public static void main(String[] args) {
         Product produkt = new Product("RDR2", 22.5F);
         Category kategoria = Category.from( "Gra");
-
+        Product product1  = new Product("Zeszyt", null,2.39F,Currency.PLN);
         kategoria.setName("przedmiot");
 
         produkt.setCategory(kategoria);
@@ -20,5 +23,7 @@ public class main {
         System.out.println(produkt.getName());
         produkt.setName("");
         produkt.setName(null);
+
+        System.out.println(product1);
     }
 }
