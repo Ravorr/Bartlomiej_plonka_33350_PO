@@ -22,9 +22,7 @@ public class Product {
         }
     }
 
-//    public Category getCategory() {
-//        return category;
-//    }
+
 
     public void setCategory(Category category) {
         this.category = category;
@@ -61,13 +59,13 @@ public class Product {
         return "Nazwa przedmiotu: " + name + ", "  + category + ", " + "Cena przedmiotu: " + price;
     }
 
-    public Product(String name, float price){
+    private Product(String name, float price){
         this.name = name;
         setName(name);
         this.price = price;
         setPrice(price);
     }
-    public Product(String name, Category category, float price){
+    private Product(String name, Category category, float price){
         this.name = name;
         setName(name);
         this.category = category;
@@ -75,10 +73,40 @@ public class Product {
         this.price = price;
         setPrice(price);
     }
-    public Product(String name, Category category, float price, Currency currency) {
+    private Product(String name, Category category, float price, Currency currency) {
         setName(name);
         setCategory(category);
         setPrice(price);
         setCurrency(currency);
+    }
+    public static ProductBuilder builder(){
+        return new ProductBuilder();
+    }
+
+    public static class ProductBuilder{
+        private String name ="";
+        private Category category;
+        private float price = 0.F;
+        private Currency currency = Currency.PLN;
+
+        public ProductBuilder name(String name){
+            this.name = name;
+            return this;
+        }
+        public ProductBuilder category(Category category){
+            this.category = category;
+            return this;
+        }
+        public ProductBuilder price(float price){
+            this.price = price;
+            return this;
+        }
+        public ProductBuilder currency(Currency currency){
+            this.currency = currency;
+            return this;
+        }
+        public Product build(){
+            return  new Product(name, category, price, currency);
+        }
     }
 }
